@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/default_activity_margin"
+    android:orientation="vertical"
+    tools:context=".FruitPickerActivity">
+
+    <TextView
+        android:id="@+id/textViewPickFruitsMessage"
+        style="@style/Theme.TextViewLarge"
+        android:text="@string/pick_fruits_text" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/progressBarIndeterminate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible" />
+        </TableLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonPickAndPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:enabled="false"
+        android:text="@string/pick_fruits_and_play" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">FruitGame</string>
+    <string name="player_editText_hint">Jogador</string>
+    <string name="play_button_text">Jogar</string>
+    <string name="saved_player_name_key">player_name</string>
+    <string name="imageView_placeholder">Image placeholder</string>
+    <string name="pick_fruits_text">%1$s, escolha 5 frutas</string>
+    <string name="preference_file_key">com.nunesvictor.fruitgame.PREFERENCE_FILE_KEY</string>
+    <string name="wait_message">Aguarde…</string>
+    <string name="pick_fruits_and_play">Escolher frutas e jogar</string>
+    <string name="app_selected_fruits">APP_SELECTED_FRUITS</string>
+    <string name="player_selected_fruits">PLAYER_SELECTED_FRUITS</string>
+    <string name="app_picking_message">O App esta escolhendo…</string>
+    <string name="app_picked_fruits">Frutas escolhidas pelo App</string>
+    <string name="player_picked_fruits">Frutas escolhidas pelo Jogador</string>
+    <string name="result">Resultado</string>
+    <string name="revelar_resultado">Revelar Resultado</string>
+    <string name="resultado">Resultado</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="encerrar_app">Encerrar app</string>
+    <string name="confirm_jogar_novamente">Deseja jogar novamente?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="saved_scores_key">scores</string>
+    <string name="score_history_text">Histórico de Resultados</string>
+
+    <string-array name="fruit_names">
+        <item>Abacate</item>
+        <item>Abacaxi</item>
+        <item>Banana</item>
+        <item>Cereja</item>
+        <item>Kiwi</item>
+        <item>Laranja</item>
+        <item>Limão</item>
+        <item>Maçã</item>
+        <item>Mamão</item>
+        <item>Morango</item>
+    </string-array>
+
+    <integer-array name="fruit_icons">
+        <item>@drawable/ic_avocado</item>
+        <item>@drawable/ic_pineapple</item>
+        <item>@drawable/ic_banana</item>
+        <item>@drawable/ic_cherry</item>
+        <item>@drawable/ic_kiwi</item>
+        <item>@drawable/ic_orange</item>
+        <item>@drawable/ic_lemon</item>
+        <item>@drawable/ic_apple</item>
+        <item>@drawable/ic_papaya</item>
+        <item>@drawable/ic_strawberry</item>
+    </integer-array>
+
+</resources>
